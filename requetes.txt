@@ -1,0 +1,4 @@
+SELECT *
+FROM `mflix-sample`._default.movies
+WHERE tomatoes.viewer.rating != 0
+AND ABS(tomatoes.viewer.rating - imdb.rating) > 7;

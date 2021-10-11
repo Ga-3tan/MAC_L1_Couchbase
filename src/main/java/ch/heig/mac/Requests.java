@@ -23,7 +23,10 @@ public class Requests {
     }
 
     public List<JsonObject> inconsistentRating() {
-        throw new UnsupportedOperationException("Not implemented, yet");
+//        QueryResult result = cluster.query(
+//                ""
+//        );
+//        return result.rowsAs(String.class);
     }
 
     public List<JsonObject> topReviewers() {
